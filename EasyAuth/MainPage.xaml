@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:EasyAuth" x:Class="EasyAuth.MainPage">
+    <ContentPage.Content>
+         <Grid>
+        <BoxView x:Name="BackgroundImg"  Opacity=".85" BackgroundColor="Silver" />
+            <StackLayout Padding="0" >
+                 <Label Opacity=".75" Text="Mr.Login" FontSize="70" FontFamily="HelveticaNeue-UltraLight" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                <StackLayout Padding="0,-25,0,0" >
+                   
+                </StackLayout>
+            
+                
+         <StackLayout Padding="20,0,20,50" VerticalOptions="EndAndExpand" Spacing="10">
+                <Button x:Name="LoginButton"  Clicked="Handle_Clicked" Text="Login with Spotify" FontSize="25" FontFamily="Helvetica,Roboto"  TextColor="White" BackgroundColor="#1DB954" BorderRadius="10" HeightRequest="60" />
+                 
+        <!-- Anything else you want to put on top of the background just use opacity wisely-->
+                
+        </StackLayout>
+        </StackLayout>
+       
+    </Grid>
+    </ContentPage.Content>
+</ContentPage>
